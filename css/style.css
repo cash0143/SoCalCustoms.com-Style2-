@@ -883,6 +883,7 @@ h3.sn {
 	width:100%:
 }
 .map iframe{
+	float: right;
 	padding-top: 10px;
 	min-height:350px;
 	width:100%;
@@ -946,6 +947,7 @@ img.code{
 }
 .contact-form-bottom {
 	margin-top: 2em;
+	width: 100%;
 }
 /**-movies --*/
 .mright-posts {
