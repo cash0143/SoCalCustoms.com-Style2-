@@ -199,7 +199,7 @@ a.btn {color:#666; text-align: center; text-decoration: none;}
 .search {
 	position: relative;
 	padding: 5px 8px;
-	width: 35%;
+	width: 60%;
 	border: 1px solid #bababa;
 	float:right;
 	background: #f8f8f8;
@@ -1818,7 +1818,7 @@ text-align: left;
 		width: 64%;
 	}
 	.search {
-		width: 31%;
+		width: 70%;
 	}
 	.top-menu {
 		margin-top: 0.4em;
@@ -2118,7 +2118,7 @@ text-align: left;
 		margin-left:0;
 	}
 	.header-right {
-		width: 57%;
+		width: 77%;
 	}
 	.top-menu ul li {
 		margin: 0 0.58em;
@@ -2127,7 +2127,7 @@ text-align: left;
 		margin: 0.4em 0;
 	}
 	.search {
-		width: 46%;
+		width: 70%;
 	}
 	.logo {
 		margin-top: 26px;
@@ -2174,7 +2174,7 @@ text-align: left;
 		margin: 0.2em 0 0.4em 0;
 	}
 	.search {
-		width: 57%;
+		width: 90%;
 		padding: 2px 6px;
 	}
 	.search input[type="submit"] {
@@ -2337,7 +2337,7 @@ text-align: left;
 		margin-top: 4px;
 	}
 	.search {
-		width: 30%;
+		width: 100%;
 		padding: 1px 4px;
 		margin:0 auto;
 		float:right;
@@ -2571,7 +2571,7 @@ text-align: left;
 		margin: 0em;
 	}
 	.search {
-		width:100%;
+		width:90%;
 		margin-top:10px;
 	}
 	.social-icons {
