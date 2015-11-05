@@ -883,6 +883,7 @@ h3.sn {
 	width:100%:
 }
 .map iframe{
+	padding-top: 10px;
 	min-height:350px;
 	width:100%;
 }
@@ -893,7 +894,7 @@ h3.sn {
 	line-height: 1.5em;
 }
 .address h5 {
-	color: #222222;
+	color: #777777;
 	font-size: 1.3em;
 	font-weight: 600;
 	margin-bottom:0.8em;
