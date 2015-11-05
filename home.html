@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SoCalCustoms.com - Home</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+</head>
+
+<body>
+	<div class="container">	
+		<div class="wrap">
+			<div class="header">
+				<div class="header-left">
+					<div class="logo">
+						<a href="home.html">
+							<img src="img/logo.png" alt="SoCalCustoms.com Logo" />
+						</a>
+					</div>
+				</div>
+				<div class="social-icons">
+					<li><a href="#"><i class="twitter"></i></a></li>
+					<li><a href="#"><i class="facebook"></i></a></li>
+					<li><a href="#"><i class="rss"></i></a></li>
+				</div>
+				<div class="clearfix"></div>
+				<div class="header-right">
+					<div class="search">
+						<form>
+							<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/>
+							<input type="submit" value="">
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<span class="menu"></span>
+			<div class="menu-strip">
+				<ul>           
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="shows.html">SHOWS</a></li>
+					<li><a href="featured.html">FEATURED</a></li>
+					<li><a href="models.html">MODELS</a></li>
+					<li><a href="shop.html">SHOP</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<!-- script for menu -->
+			<script>
+				$( "span.menu" ).click(function() {
+				  $( ".menu-strip" ).slideToggle( "slow", function() {
+				  });
+				});
+			</script>
+			<!-- script for menu -->
+			<div class="clearfix"></div>
+			<div class="main-content">		
+				<div class="col-md-12 top-gallery">
+					<div class="slider">
+						<script src="js/responsiveslides.min.js"></script>
+						 <script>
+							$(function () {
+							  $("#conference-slider").responsiveSlides({
+								auto: true,
+								manualControls: '#slider3-pager',
+							  });
+							});
+						</script>
+						 <div class="conference-slider">
+							<!-- Slideshow 3 -->
+							<ul class="conference-rslide" id="conference-slider">
+							  <li><img src="images/c22.jpg" alt=""></li>
+							  <li><img src="images/c1.jpg" alt=""></li>
+							  <li><img src="images/c33.jpg" alt=""></li>
+							  <li><img src="images/c44.jpg" alt=""></li>
+							</ul>
+							<!-- Slideshow 3 Pager -->
+							<ul id="slider3-pager">
+							  <li><a href="#"><img src="images/c22.jpg" alt=""></a></li>
+							  <li><a href="#"><img src="images/c1.jpg" alt=""></a></li>
+							  <li><a href="#"><img src="images/c33.jpg" alt=""></a></li>
+							  <li><a href="#"><img src="images/c44.jpg" alt=""></a></li>
+							</ul>
+						</div> 
+					</div>	
+				<div class="posts">
+					<div class="col-md-12">
+						<div class="world-news">
+							<div class="main-title-head">
+								<h3>Recent Shows</h3>
+								<div class="clearfix"></div>
+							</div>
+							<div class="world-news-grids">
+								<div class="world-news-grid">
+									<img src="images/n1.jpg" alt="" />
+									<a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+									<a href="shows.html">Read More</a>
+								</div>
+								<div class="world-news-grid">
+									<img src="images/n2.jpg" alt="" />
+									<a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+									<a href="shows.html">Read More</a>
+								</div>
+								<div class="world-news-grid">
+									<img src="images/n3.jpg" alt="" />
+									<a href="singlepage.html" class="title">Lorem ipsum dolor sit amet, consectetur </a>
+									<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</p>
+									<a href="shows.html">Read More</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="gallery">
+							<div class="main-title-head">
+								<h3>Partner Spotlight</h3>
+								<div class="clearfix"></div>
+							</div>
+							<div class="gallery-images">
+								<div class="course_demo1">
+								  <ul id="flexiselDemo1">	
+									  <li><img src="img/AirBagit.jpg" alt="AirBagit" /></li>
+									  <li><img src="img/AutoAnything.jpg" alt="AutoAnything" /></li>	
+									  <li><img src="img/GrantKustoms.jpg" alt="GrantKustoms" /></li>	
+									  <li><img src="img/IMZZIndustries.jpg" alt="IMZZIndustires" /></li>
+									  <li><img src="img/JLAudio.jpg" alt="JLAudio" /></li>
+									  <li><img src="img/Kinetik.jpg" alt="Kinetik" /></li>
+									  <li><img src="img/Lanes.jpg" alt="Lanes" /></li>
+									  <li><img src="img/LGEnterprises.jpg" alt="LGEnterprises" /></li>	
+								  </ul>
+							  </div>
+								<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+								<script type="text/javascript">
+								 $(window).load(function() {
+									$("#flexiselDemo1").flexisel({
+										visibleItems: 4,
+										animationSpeed: 1000,
+										autoPlay: true,
+										autoPlaySpeed: 3000,    		
+										pauseOnHover: true,
+										enableResponsiveBreakpoints: true,
+										responsiveBreakpoints: { 
+											portrait: { 
+												changePoint:480,
+												visibleItems: 2
+											}, 
+											landscape: { 
+												changePoint:640,
+												visibleItems: 2
+											},
+											tablet: { 
+												changePoint:768,
+												visibleItems: 3
+											}
+										}
+									});	
+								});
+								</script>
+								<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+							</div>
+							<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+						</div>
+						<div class="tech-news">
+							<div class="main-title-head">
+								<h3>Social Media</h3>
+								<div class="clearfix"></div>
+							</div>	
+							<div class="tech-news-grids">
+								<div class="left-tech-news">
+									<div class="tech-news-grid span_66">
+										<a href="singlepage.html">Lorem ipsum dolor sit amet conse ctetur adipiscing elit  </a>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ... </p>
+										<p>by<a href="#">John Doe </a>  |  29 comments</p>
+									</div>
+									<div class="tech-news-grid">
+										<a href="singlepage.html">Lorem ipsum dolor sit amet conse ctetur adipiscing elit  </a>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ... </p>
+										<p>by<a href="#">John Doe </a>  |  29 comments</p>
+									</div>
+								</div>
+								<div class="right-tech-news">
+									<div class="tech-news-grid span_66">
+										<a href="singlepage.html">Lorem ipsum dolor sit amet conse ctetur adipiscing elit  </a>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ... </p>
+										<p>by<a href="#">John Doe </a>  |  29 comments</p>
+									</div>
+									<div class="tech-news-grid">
+										<a href="singlepage.html">Lorem ipsum dolor sit amet conse ctetur adipiscing elit  </a>
+										<p>Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ... </p>
+										<p>by<a href="#">John Doe </a>  |  29 comments</p>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>	
+				</div>
+				</div>	
+					<div class="clearfix"></div>
+				</div>	
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer text-center">
+				<div class="bottom-menu">
+					<ul>                 
+						<li><a href="home.html">HOME</a></li> |
+						<li><a href="shows.html">SHOWS</a></li> |
+						<li><a href="featured.html">FEATURED</a></li> |
+						<li><a href="models.html">MODELS</a></li> |
+						<li><a href="shop.html">SHOP</a></li> |
+						<li><a href="about.html">ABOUT</a></li> |
+						<li><a href="contact.html">CONTACT</a></li> 						
+					</ul>
+				</div>
+				<div class="copyright text-center">
+					<p>NOT FOR OFFICIAL USE. Created by Group 0011-5 for DIG4104C Web Design Workshop. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
